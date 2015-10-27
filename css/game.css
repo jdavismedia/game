@@ -1,0 +1,25 @@
+.background    { background-image: url(https://lh3.googleusercontent.com/-EOgYzT8Rg5k/VeOozD8YHFI/AAAAAAAADR8/_pTbMSvxYXA/w1920-h1080/2011-04-24_00006.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(27, 226, 21); }
+ 
+.wall          { background: rgb(176,196,222);   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(http://geekdo-images.com/images/geekmbs/mb_26292_0.png); }
+.player { background-image: url("http://images.coolchaser.com/themes/t/-i678.photobucket.com-albums-vv148-splitterherz-X-Men-Animated-Gifs-Wolverine-wolvie-snes-walk.gif"); }
+
+.game {
+  overflow: hidden;
+  max-width: 650px;
+  max-height: 500px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
